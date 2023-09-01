@@ -21,3 +21,5 @@ class DBCONFIG:
 
 class APPCONFIG:
     weatherAPI = config.get('AppSection', 'app.weatherapi')
+    I2CDHT = config.get ('AppSection', 'app.I2CDHT')
+    DHT11 = config.get ('AppSection', 'app.DHT11')
