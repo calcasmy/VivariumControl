@@ -13,6 +13,6 @@ class VivariumController:
             if (_astroData[1] <= _time <= _astroData[2]):
                 VivariumData.getluminosdata()
         
-        VivariumData.getTempHumidData()
+        VivariumData.getTempHumidDataDHTSI2C()
 
 VivariumController.controller() 
